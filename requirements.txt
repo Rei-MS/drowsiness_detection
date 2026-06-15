@@ -1,0 +1,17 @@
+# Detección de somnolencia — UTA-RLDD. Python 3.11, GPU recomendada (CUDA 12.4).
+# torch/torchvision desde el índice CUDA:
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+torchvision==0.21.0
+opencv-python==4.13.0.92
+albumentations==2.0.8
+h5py==3.16.0
+scikit-learn==1.9.0
+tqdm==4.68.2
+matplotlib==3.11.0
+pandas==3.0.3
+numpy==2.4.4
+# Features de parpadeo (compila con cmake/gcc):
+dlib==20.0.1
+imutils==0.5.4
+# + predictor: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 → models/

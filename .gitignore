@@ -1,0 +1,13 @@
+data/raw/
+data/processed/
+*.h5
+*.npy
+*.npz
+checkpoints/*.pt
+checkpoints/kfold/*.pt
+models/*.dat
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+logs/

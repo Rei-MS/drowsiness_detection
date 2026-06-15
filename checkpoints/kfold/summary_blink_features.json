@@ -1,0 +1,49 @@
+{
+  "model": "blink_features_histgbm",
+  "k": 5,
+  "window": 64,
+  "stride": 16,
+  "folds": [
+    {
+      "fold": 0,
+      "win_f1": 0.5275297037381728,
+      "video_accuracy": 0.5,
+      "video_f1": 0.5,
+      "n_videos": 24
+    },
+    {
+      "fold": 1,
+      "win_f1": 0.5128466327108092,
+      "video_accuracy": 0.4583333333333333,
+      "video_f1": 0.4497354497354497,
+      "n_videos": 24
+    },
+    {
+      "fold": 2,
+      "win_f1": 0.514913273514269,
+      "video_accuracy": 0.5416666666666666,
+      "video_f1": 0.5343915343915344,
+      "n_videos": 24
+    },
+    {
+      "fold": 3,
+      "win_f1": 0.6164371162090141,
+      "video_accuracy": 0.6666666666666666,
+      "video_f1": 0.6571428571428571,
+      "n_videos": 24
+    },
+    {
+      "fold": 4,
+      "win_f1": 0.4911077039158025,
+      "video_accuracy": 0.4583333333333333,
+      "video_f1": 0.4497354497354497,
+      "n_videos": 24
+    }
+  ],
+  "win_f1_mean": 0.5325668860176135,
+  "win_f1_std": 0.0435407646306969,
+  "video_acc_mean": 0.525,
+  "video_acc_std": 0.07728015412913085,
+  "video_f1_mean": 0.5182010582010582,
+  "video_f1_std": 0.07651576650237253
+}
