@@ -1,8 +1,12 @@
 # Detección de Somnolencia — UTA-RLDD
 
-Trabajo final de Visión por Computadora II (CEIA-FIUBA). Compara MobileNetV2 vs
-ResNet50V2, un modelo temporal, y un enfoque de **features de parpadeo (EAR/PERCLOS)**,
-evaluando todo con el protocolo del paper original (Ghoddoosian et al., 2019):
+Trabajo final de Visión por Computadora II (CEIA-FIUBA). Integrantes:
+- [a2308] Liliana Mariel Di Lanzo
+- [a2317] Pablo Maximiliano Lulic
+- [a2318] Reinaldo Magallanes Saunders
+
+Compara MobileNetV2 vs ResNet50V2, un modelo temporal, y un enfoque de **features de parpadeo**
+(EAR/PERCLOS), evaluando todo con el protocolo del paper original (Ghoddoosian et al., 2019):
 **5-fold cross-validation subject-independent a nivel de video**.
 
 > **Resultado principal:** el modelo de **parpadeo (libre de apariencia)** alcanza
